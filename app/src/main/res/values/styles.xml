@@ -1,0 +1,93 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/standard_bg_all_page</item>
+    </style>
+
+    <!--页面中的红色大按钮样式-->
+    <style name="SubmitButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/standard_big_button_height</item>
+        <item name="android:textSize">@dimen/standard_title_text_size</item>
+        <item name="android:textColor">@color/standard_btn_text_color</item>
+        <item name="android:background">@drawable/selector_btn_red</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--MainBottomView中的RadioButton-->
+    <style name="MainBottomRadioButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/selector_widget_main_bottom_text</item>
+        <item name="android:textSize">@dimen/widget_main_bottom_text</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/widget_main_bottom_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/widget_main_bottom_vertical_padding</item>
+        <item name="android:drawablePadding">@dimen/widget_main_bottom_drawable_padding</item>
+    </style>
+
+    <!--我的中财富模块的文字样式-->
+    <style name="WealthTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/standard_minor_text_size</item>
+        <item name="android:textColor">@color/mine_wealth_kf_coin</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--个人信息中左侧文字样式-->
+    <style name="PersonInfoTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/standard_key_text_size</item>
+        <item name="android:textColor">@color/person_info_left_title_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!--个人信息中右侧文字样式-->
+    <style name="PersonInfoValueStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/standard_key_text_size</item>
+        <item name="android:textColor">@color/person_info_right_value_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!--修改密码页面输入框样式-->
+    <style name="ModifyPwdEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/modify_pwd_et_height</item>
+        <item name="android:paddingLeft">@dimen/modify_pwd_paddingLeft</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/standard_key_text_size</item>
+        <item name="android:textColorHint">@color/modify_pwd_text_hint_color</item>
+        <item name="android:background">@color/modify_pwd_bg_et</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <!--修改密码中的大按钮样式-->
+    <style name="ModifyPwdBtnStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/standard_big_button_height</item>
+        <item name="android:textSize">@dimen/standard_title_text_size</item>
+        <item name="android:textColor">@color/standard_btn_text_color</item>
+        <item name="android:layout_marginLeft">@dimen/modify_pwd_paddingLeft</item>
+        <item name="android:layout_marginRight">@dimen/modify_pwd_paddingLeft</item>
+        <item name="android:background">@drawable/selector_btn_blue</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--自定义选择性别对话框中文字样式-->
+    <style name="SelectSexTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/dialog_text_padding</item>
+        <item name="android:textSize">@dimen/standard_list_text_1</item>
+        <item name="android:textColor">@color/dialog_text_color</item>
+        <item name="android:background">@drawable/selector_btn_white</item>
+    </style>
+</resources>

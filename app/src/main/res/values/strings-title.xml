@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_register">注册</string>
+    <string name="title_login">登录</string>
+    <string name="title_kfip">功夫夺宝</string>
+    <string name="title_lastest_announce">最新揭晓</string>
+    <string name="title_meeting">武林大会</string>
+    <string name="title_bill">清单</string>
+    <string name="title_mine">我的</string>
+    <string name="title_ip_records">夺宝记录</string>
+    <string name="title_prize_records">中奖记录</string>
+    <string name="title_announce_bill_records">晒单记录</string>
+    <string name="title_my_address">收货地址</string>
+    <string name="title_setting">设置</string>
+    <string name="title_person_info">个人资料</string>
+    <string name="title_modify_nickname">修改昵称</string>
+    <string name="title_modify_pwd">修改密码</string>
+    <string name="title_recharge">充值</string>
+</resources>

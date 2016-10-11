@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/login_remember_pwd_padding"
+    android:paddingLeft="@dimen/login_remember_pwd_padding"
+    android:paddingRight="@dimen/login_remember_pwd_padding"
+    >
+    <CheckBox
+        android:id="@+id/cb_remember_pwd"
+        android:layout_width="@dimen/register_cb_size"
+        android:layout_height="@dimen/register_cb_size"
+        android:checked="true"
+        android:button="@null"
+        android:background="@drawable/selector_checkbox"
+        android:layout_marginTop="@dimen/register_cb_marginTop"
+        android:layout_marginRight="@dimen/register_cb_marginRight"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_tip_remember_pwd"
+        android:textSize="@dimen/register_text_protocol"
+        android:textColor="@color/login_text_color"
+        android:layout_toRightOf="@id/cb_remember_pwd"
+        />
+    <TextView
+        android:id="@+id/tv_forget_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_tip_forget_pwd"
+        android:textSize="@dimen/register_text_protocol"
+        android:textColor="@color/login_text_forget_pwd"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_save">保存</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_no_sd_card">无SD卡</string>
+    <string name="common_no_camera_permission">请开启相机权限！</string>
+    <string name="common_crop_image_no_image">没有找到图片</string>
+    <string name="common_get_image_failure">获取图片失败</string>
+
+
+    <string-array name="common_menu_set_avatar">
+        <item>拍照</item>
+        <item>从手机相册选择</item>
+    </string-array>
+</resources>

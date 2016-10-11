@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/standard_bg_status"
+    android:fitsSystemWindows="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_view_height"
+        android:paddingLeft="@dimen/header_view_padding_left"
+        android:paddingRight="@dimen/header_view_padding_right">
+        <ImageView
+            android:id="@+id/iv_frag_kfip_search"
+            android:layout_width="@dimen/header_view_left_image_size"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitStart"
+            android:paddingTop="@dimen/header_view_padding"
+            android:paddingBottom="@dimen/header_view_padding"
+            android:paddingRight="@dimen/header_view_padding"
+            android:src="@mipmap/icon_kfip_search"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/headerViewTextColor"
+            android:textSize="@dimen/standard_title_text_size"
+            android:text="@string/title_kfip"
+            />
+        <ImageView
+            android:id="@+id/iv_frag_kfip_message"
+            android:layout_width="@dimen/header_view_left_image_size"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="@dimen/header_view_padding"
+            android:paddingBottom="@dimen/header_view_padding"
+            android:paddingLeft="@dimen/header_view_padding"
+            android:src="@mipmap/icon_kfip_message"
+            />
+    </RelativeLayout>
+</LinearLayout>

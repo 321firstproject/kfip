@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/include_header_view"/>
+    <RelativeLayout
+        android:id="@+id/rl_person_info_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/person_info_avatar_height"
+        android:paddingLeft="@dimen/person_info_paddingLeft"
+        android:paddingRight="@dimen/person_info_paddingRight"
+        android:background="@drawable/selector_btn_white"
+        >
+        <TextView
+            style="@style/PersonInfoTitleStyle"
+            android:text="@string/person_info_avatar"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:id="@+id/iv_person_info_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_mine_arrow"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_person_info_avatar"
+            android:layout_width="@dimen/person_info_avatar_size"
+            android:layout_height="@dimen/person_info_avatar_size"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_person_info_arrow"
+            android:layout_marginRight="@dimen/person_info_avatar_marginRight"
+            fresco:roundAsCircle ="true"
+            />
+    </RelativeLayout>
+    <include layout="@layout/include_view_divider"/>
+    <include
+        android:id="@+id/widget_person_info_nickname"
+        layout="@layout/include_widget_title_value_person_info"/>
+    <include
+        android:id="@+id/widget_person_info_birthday"
+        layout="@layout/include_widget_title_value_person_info"/>
+    <include
+        android:id="@+id/widget_person_info_sex"
+        layout="@layout/include_widget_title_value_person_info"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/standard_view_divider_height"
+        android:background="@color/standard_bg_view_divider"
+        android:layout_marginTop="15dp"
+        />
+    <include
+        android:id="@+id/widget_person_info_modify_pwd"
+        layout="@layout/include_widget_title_value_person_info"/>
+</LinearLayout>

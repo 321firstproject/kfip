@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--该页面放置app颜色标准-->
+<resources>
+    <!--系统状态栏背景色-->
+    <color name="standard_bg_status">#f0465f</color>
+
+    <!--所有页面底色-->
+    <color name="standard_bg_all_page">#eeeeee</color>
+
+    <!--登录注册页分割线颜色-->
+    <color name="standard_bg_view_divider">#e4e4e4</color>
+
+    <!--红色大按钮正常和点击效果下的背景色-->
+    <color name="standard_bg_red_btn_normal">#f0465f</color>
+    <color name="standard_bg_red_btn_pressed">#e24747</color>
+
+    <!--白色按钮正常和点击效果下的背景色-->
+    <color name="standard_bg_white_btn_normal">#ffffff</color>
+    <color name="standard_bg_white_btn_pressed">#ece5e5</color>
+
+    <!--蓝色按钮正常和点击效果下的背景色-->
+    <color name="standard_bg_blue_btn_normal">#1ba6ff</color>
+    <color name="standard_bg_blue_btn_pressed">#157dbf</color>
+
+    <!--大按钮中文字颜色-->
+    <color name="standard_btn_text_color">#ffffff</color>
+
+
+
+</resources>

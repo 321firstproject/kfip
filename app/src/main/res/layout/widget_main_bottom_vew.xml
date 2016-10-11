@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/include_view_divider"/>
+    <RadioGroup
+        android:id="@+id/rg_main_bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_bottom_view_bg"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <RadioButton
+            style="@style/MainBottomRadioButtonStyle"
+            android:text="@string/widget_main_bottom_kfip"
+            android:drawableTop="@drawable/selector_widget_main_bottom_kfip"
+            />
+        <RadioButton
+            style="@style/MainBottomRadioButtonStyle"
+            android:text="@string/widget_main_bottom_lastest_open"
+            android:drawableTop="@drawable/selector_widget_main_bottom_lastest_open"
+            />
+        <RadioButton
+            style="@style/MainBottomRadioButtonStyle"
+            android:text="@string/widget_main_bottom_meeting"
+            android:drawableTop="@drawable/selector_widget_main_bottom_meeting"
+            />
+        <RadioButton
+            style="@style/MainBottomRadioButtonStyle"
+            android:text="@string/widget_main_bottom_bill"
+            android:drawableTop="@drawable/selector_widget_main_bottom_bill"
+            />
+        <RadioButton
+            style="@style/MainBottomRadioButtonStyle"
+            android:text="@string/widget_main_bottom_mine"
+            android:drawableTop="@drawable/selector_widget_main_bottom_mine"
+            />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_person_info_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/person_info_nickname_height"
+        android:paddingLeft="@dimen/person_info_paddingLeft"
+        android:paddingRight="@dimen/person_info_paddingRight"
+        android:background="@drawable/selector_btn_white"
+        >
+        <TextView
+            android:id="@+id/tv_person_info_title"
+            style="@style/PersonInfoTitleStyle"
+            android:layout_alignParentLeft="true"
+            />
+        <ImageView
+            android:id="@+id/iv_person_info_item_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_mine_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/iv_person_info_value"
+            style="@style/PersonInfoValueStyle"
+            android:layout_toLeftOf="@id/iv_person_info_item_arrow"
+            android:layout_marginRight="@dimen/mine_ip_record_marginTop"
+            />
+    </RelativeLayout>
+    <include layout="@layout/include_view_divider"/>
+</LinearLayout>

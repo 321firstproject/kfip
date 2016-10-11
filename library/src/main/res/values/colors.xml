@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--倒计时工具类相关-->
+    <color name="count_down_default_bg">#f0465f</color>
+
+    <!--刷新控件颜色渐变-->
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
+
+    <!--wheel view 相关-->
+    <color name="wheel_view_unselected_text">#c2c1c1</color>
+    <color name="wheel_view_selected_text">#f0465f</color>
+    <color name="wheel_view_bg">#f2f2f2</color>
+    <color name="wheel_view_bg_selected_layout">#ffffff</color>
+    <color name="wheel_view_btn_cancel">#888888</color>
+    <color name="wheel_view_btn_confirm">#f0465f</color>
+
+    <!--白色按钮正常和点击效果下的背景色-->
+    <color name="bg_white_btn_normal">#ffffff</color>
+    <color name="bg_white_btn_pressed">#ece5e5</color>
+
+    <!--分割线颜色-->
+    <color name="divider_line_bg">#dfdfdf</color>
+</resources>

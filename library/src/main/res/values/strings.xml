@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Library</string>
+    <!--倒计时工具类相关-->
+    <string name="count_down_obtain_verify_again">重新获取验证码</string>
+
+    <!--图片剪裁-->
+    <string name="crop_image_wait">请稍后</string>
+
+    <string name="common_cancel">取消</string>
+    <string name="custom_confirm">确定</string>
+
+    <!-- 下拉刷新 -->
+    <string name="pull_refresh_loosen_refresh" translatable="false">松开刷新</string>
+    <string name="pull_refresh_pull_down_refresh" translatable="false">下拉刷新</string>
+    <string name="pull_refresh_refreshing" translatable="false">正在刷新</string>
+    <string name="pull_refresh_loading" translatable="false">正在加载</string>
+    <string name="pull_refresh_load_more" translatable="false">上拉加载更多</string>
+    <string name="pull_refresh_last_updated" translatable="false">最近更新:%s</string>
+</resources>

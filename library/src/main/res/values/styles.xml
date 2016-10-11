@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--NewActionSheetStyle 弹出框样式-->
+    <style name="NewActionSheetStyle" parent="@android:style/Theme.Dialog">
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--附于activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--dialog进入或退出动画-->
+        <item name="android:windowAnimationStyle">@style/NewActionSheetAnimation</item>
+    </style>
+
+    <!--NewActionSheet进出动画-->
+    <style name="NewActionSheetAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/new_action_sheet_in</item>
+        <item name="android:windowExitAnimation">@anim/new_action_sheet_out</item>
+    </style>
+
+    <style name="dialog_left_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_white</item>
+        <item name="android:text">@string/common_cancel</item>
+        <item name="android:textColor">@color/wheel_view_btn_cancel</item>
+        <item name="android:textSize">@dimen/size_text_dialog_btn</item>
+    </style>
+
+    <style name="dialog_right_btn_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_btn_white</item>
+        <item name="android:text">@string/custom_confirm</item>
+        <item name="android:textColor">@color/wheel_view_btn_confirm</item>
+        <item name="android:textSize">@dimen/size_text_dialog_btn</item>
+    </style>
+
+    <style name="dialog_cutting_line_style">
+        <item name="android:layout_width">@dimen/divider_line_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/divider_line_bg</item>
+    </style>
+
+</resources>

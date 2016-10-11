@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/include_header_view"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/modify_nickname_height"
+        android:paddingLeft="@dimen/modify_nickname_paddingLeft"
+        android:paddingRight="@dimen/modify_nickname_paddingLeft"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/modify_nickname_bg_input"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modify_nickname_hint"
+            android:textColor="@color/modify_nickname_hint_color"
+            android:textSize="@dimen/standard_key_text_size"
+            android:layout_marginRight="@dimen/modify_nickname_marginRight"
+            />
+        <EditText
+            android:id="@+id/et_new_nickname"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/standard_key_text_size"
+            android:textColor="@color/modify_nickname_input_color"
+            android:background="@null"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/modify_nickname_paddingLeft"
+        android:layout_marginTop="@dimen/modify_nickname_marginTop"
+        android:text="@string/modify_nickname_suggest"
+        android:textSize="@dimen/standard_key_text_size"
+        android:textColor="@color/modify_nickname_suggest_color"
+        />
+</LinearLayout>

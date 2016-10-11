@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--HeadView相关-->
+    <color name="headerViewBg">#f0465f</color>
+    <color name="headerViewTextColor">#ffffff</color>
+
+    <!--登录注册相关-->
+    <color name="login_or_register_bg">#ffffff</color>
+    <color name="login_hint_input">#cccccc</color>
+    <color name="login_text_color">#666666</color>
+    <color name="login_text_forget_pwd">#f0465f</color>
+    <color name="register_text_protocol_color">#f0465f</color>
+
+    <!--MainBottomView-->
+    <color name="main_bottom_view_bg">#ffffff</color>
+
+    <!--ActionSheet-->
+    <color name="action_sheet_text_color">#7f7f7f</color>
+
+    <!--我的-->
+    <color name="mine_phone_number_color">#ffffff</color>
+    <color name="mine_bg_wealth">#ffffff</color>
+    <color name="mine_wealth_kf_coin">#ffde5a</color>
+    <color name="mine_wealth_recharge">#cd6d6d</color>
+    <color name="mine_black_text_color">#585858</color>
+
+    <!--个人资料-->
+    <color name="person_info_left_title_color">#7e7e7e</color>
+    <color name="person_info_right_value_color">#1b1b1b</color>
+
+    <!--自定义选择性别对话框中字体颜色-->
+    <color name="dialog_text_color">#1b1b1b</color>
+
+    <!--修改昵称-->
+    <color name="modify_nickname_bg_input">#ffffff</color>
+    <color name="modify_nickname_hint_color">#91919c</color>
+    <color name="modify_nickname_input_color">#323232</color>
+    <color name="modify_nickname_suggest_color">#adadad</color>
+
+    <!--修改密码-->
+    <color name="modify_pwd_bg_et">#ffffff</color>
+    <color name="modify_pwd_bg_page">#f2f1f3</color>
+    <color name="modify_pwd_text_hint_color">#cccccc</color>
+
+
+</resources>

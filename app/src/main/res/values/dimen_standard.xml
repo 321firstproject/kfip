@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--分割线高度-->
+    <dimen name="standard_view_divider_height">1px</dimen>
+
+    <!--页面中大按钮高度-->
+    <dimen name="standard_big_button_height">42dp</dimen>
+
+    <!--标题文字-->
+    <dimen name="standard_title_text_size">19sp</dimen>
+
+    <!--关键文字-->
+    <dimen name="standard_key_text_size">14sp</dimen>
+    
+    <!--次要文字-->
+    <dimen name="standard_minor_text_size">12sp</dimen>
+
+    <!--大按钮圆角半径-->
+    <dimen name="standard_btn_radius">5dp</dimen>
+
+    <!--列表文字大小-->
+    <dimen name="standard_list_text_1">15sp</dimen>
+    <dimen name="standard_list_text_2">16sp</dimen>
+</resources>

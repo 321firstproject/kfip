@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_value_pair_height"
+        android:background="@drawable/selector_btn_white"
+        android:paddingLeft="@dimen/title_value_pair_paddingLeft"
+        android:paddingRight="@dimen/title_value_pair_paddingRight"
+        android:id="@+id/rl_widget_title_value_pair">
+        <ImageView
+            android:id="@+id/iv_widget_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/tv_widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/standard_key_text_size"
+            android:textColor="@color/mine_black_text_color"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_widget_icon"
+            android:layout_marginLeft="@dimen/title_value_pair_title_marginLeft"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_mine_arrow"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
