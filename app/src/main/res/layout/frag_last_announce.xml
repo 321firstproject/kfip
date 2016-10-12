@@ -16,4 +16,19 @@
         android:fitsSystemWindows="true"
         android:paddingTop="@dimen/last_announce_title_paddingTop"
         />
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/lv_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="@dimen/standard_view_divider_height"
+            android:listSelector="@drawable/selector_btn_white"
+            android:divider="#e9e9e9"
+            android:choiceMode="singleChoice"
+            android:fadingEdge="none"
+            android:scrollbarStyle="outsideOverlay" />
+    </android.support.v4.widget.SwipeRefreshLayout>
 </LinearLayout>

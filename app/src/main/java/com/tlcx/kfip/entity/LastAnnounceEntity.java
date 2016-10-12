@@ -9,10 +9,25 @@ import java.io.Serializable;
  */
 public class LastAnnounceEntity implements Serializable {
 
-    private String name;
+    private String name;             //名字
+    private String price;            //价格
+    private String iconUrl;          //icon地址
 
-    public LastAnnounceEntity(String name){
-        setName(name);
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public void setIconUrl(String iconUrl) {
+        this.iconUrl = iconUrl;
+    }
+
+    public String getPrice() {
+
+        return price;
+    }
+
+    public String getIconUrl() {
+        return iconUrl;
     }
 
     public void setName(String name) {

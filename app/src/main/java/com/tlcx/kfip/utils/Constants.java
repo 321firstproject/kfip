@@ -18,6 +18,10 @@ public class Constants {
      */
     public static final boolean DEBUG = true;
 
+    /**
+     * 单页加载的数据条数
+     */
+    public static final int LIST_LOAD_COUNT = 15;
 
     static {
         //创建sd卡中项目目录

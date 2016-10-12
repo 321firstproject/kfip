@@ -46,4 +46,7 @@ dependencies {
 
     //图片加载框架
     compile 'com.facebook.fresco:fresco:0.13.0'
+
+    //下拉刷新、下拉加载框架
+    compile 'com.chanven.lib:cptr:1.1.0'
 }

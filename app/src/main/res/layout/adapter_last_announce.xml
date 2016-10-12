@@ -1,22 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:paddingLeft="20dp"
-    android:paddingRight="20dp"
+    android:layout_height="130dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="10dp"
+    android:background="#fff"
     >
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/iv_last_announce_item_ten"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/icon_last_announce_ten"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+    <ImageView
+        android:id="@+id/iv_last_announce_item_second"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/icon_last_announce_second"
+        android:layout_toRightOf="@id/iv_last_announce_item_ten"
+        android:layout_marginLeft="5dp"
+        />
+    <ImageView
+        android:id="@+id/iv_last_announce_item_icon"
+        android:layout_width="87dp"
+        android:layout_height="64dp"
         android:src="@mipmap/ic_launcher"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
+        android:layout_marginLeft="7dp"
         />
     <TextView
-        android:id="@+id/tv_last_announce_title"
+        android:id="@+id/tv_last_announce_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="0"
+        android:layout_toRightOf="@id/iv_last_announce_item_icon"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="11dp"
+        android:textColor="#474747"
+        android:textSize="@dimen/standard_list_text_2"
+        android:text="京东E卡经典卡100面值"
+        />
+    <TextView
+        android:id="@+id/tv_last_announce_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_last_announce_item_icon"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="40dp"
+        android:text="价值¥ 120"
+        android:textColor="#a0a0a0"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/tv_last_announce_winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_last_announce_item_icon"
+        android:layout_below="@id/tv_last_announce_price"
+        android:layout_marginLeft="12dp"
+        android:textSize="10sp"
+        android:textColor="#38b1ff"
+        android:text="中奖者：我要咸鱼翻身"
+        />
+    <TextView
+        android:id="@+id/tv_last_announce_participator_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_last_announce_item_icon"
+        android:layout_below="@id/tv_last_announce_winner"
+        android:layout_marginLeft="12dp"
+        android:textSize="10sp"
+        android:textColor="#a0a0a0"
+        android:text="本期夺宝：10人次"
+        />
+    <TextView
+        android:id="@+id/tv_last_announce_announce_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_last_announce_item_icon"
+        android:layout_below="@id/tv_last_announce_participator_count"
+        android:layout_marginLeft="12dp"
+        android:textSize="10sp"
+        android:textColor="#a0a0a0"
+        android:text="揭晓时间：下午3:45"
         />
 </RelativeLayout>

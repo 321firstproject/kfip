@@ -24,7 +24,7 @@ public class LastAnnounceListAdapter extends BaseAdapter<LastAnnounceEntity> {
 
     @Override
     public View getItemView(int position, View convertView, ViewHolder viewHolder) {
-        TextView title = viewHolder.getView(R.id.tv_last_announce_title);
+        TextView title = viewHolder.getView(R.id.tv_last_announce_name);
         LastAnnounceEntity item = getItem(position);
         title.setText(item.getName());
         return convertView;
