@@ -96,7 +96,6 @@ public class LastAnnounceFragment extends BaseFragment {
                     public void run() {
                         mPage ++;
                         loadNextPageData(mPage);
-                        mSwipeRefreshHelper.loadMoreComplete(true);//设置加载完成
                     }
                 },1000);
             }
@@ -129,13 +128,14 @@ public class LastAnnounceFragment extends BaseFragment {
      */
     private void loadNextPageData(int page){
         List<LastAnnounceEntity> data = new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 6; i++) {
             LastAnnounceEntity entity = new LastAnnounceEntity();
             entity.setName("第 "+page+" 页第"+(i+1)+"件商品");
             entity.setPrice("价值¥ "+(i+10));
             data.add(entity);
         }
         mAdapter.addAllAndNotify(data);
+        mSwipeRefreshHelper.loadMoreComplete(true);//设置加载完成
     }
     @Override
     public void onDestroyView() {
